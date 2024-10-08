@@ -1,0 +1,90 @@
+
+.custom-scrollbar::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+.custom-scrollbar::-webkit-scrollbar:vertical {
+  width: 12px;
+  overflow: visible;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, .2);
+  border: 3px solid #f5f5f5;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  background-color: #f5f5f5;
+}
+
+.transparent {
+  opacity: 0;
+}
+
+.centered-element {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.no-padding-bottom {
+  padding-bottom: 0;
+}
+
+.no-padding-left {
+  padding-left: 0;
+}
+
+.no-padding-top {
+  padding-top: 0;
+}
+
+.one-liner {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.top-buffer {
+  margin-top: 3%;
+}
+
+.top-buffer-small {
+  margin-top: 1.25%;
+}
+
+.top-buffer-fixed {
+  margin-top: 12px;
+}
+
+.bottom-buffer {
+  margin-bottom: 3%;
+}
+
+.bottom-buffer-small {
+  margin-bottom: 1.25%;
+}
+
+.bottom-buffer-fixed {
+  margin-bottom: 12px;
+}
+
+.big-top-buffer {
+  margin-top: 6%;
+}
+
+.big-bottom-buffer {
+  margin-bottom: 6%;
+}

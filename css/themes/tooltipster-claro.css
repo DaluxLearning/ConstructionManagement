@@ -1,0 +1,60 @@
+.tooltipster-claro.tooltipster-sidetip .tooltipster-box{
+	border-radius: 2px; 
+	border: 1px solid #ccc;
+	box-shadow: 1px 3px 15px -1px #333;
+	background: #fff;
+}
+.tooltipster-claro.tooltipster-sidetip .tooltipster-content {
+	color: #333;	
+	line-height: 100%;
+	padding: 0px;
+	max-height: 500px;
+	overflow-y: auto;
+}
+.tooltipster-claro.tooltipster-sidetip .tooltipster-content .tooltip-header{
+	border-bottom: 1px solid #ccc;
+}
+
+.tooltipster-claro.tooltipster-sidetip.tooltipster-right .tooltipster-arrow {
+	left : -1px;
+}
+.tooltipster-claro.tooltipster-sidetip.tooltipster-right .tooltipster-arrow-border{
+	border-right-color : #BBB;
+}
+
+.tooltipster-claro.tooltipster-sidetip.tooltipster-right .tooltipster-arrow-background{
+	border-right-color : #FFF;
+	left               : 1px;
+}
+
+.tooltipster-claro.tooltipster-sidetip.tooltipster-left .tooltipster-arrow {
+	right : -1px;
+}
+.tooltipster-claro.tooltipster-sidetip.tooltipster-left .tooltipster-arrow-border {
+	border-left-color : #BBB;
+}
+.tooltipster-claro.tooltipster-sidetip.tooltipster-left .tooltipster-arrow-background{
+	border-left-color : #fff;
+	left              : -1px;
+}
+
+.tooltipster-claro.tooltipster-sidetip.tooltipster-top .tooltipster-arrow {
+	bottom : -1px;
+}
+.tooltipster-claro.tooltipster-sidetip.tooltipster-top .tooltipster-arrow-border{
+	border-top-color : #BBB;
+}
+.tooltipster-claro.tooltipster-sidetip.tooltipster-top .tooltipster-arrow-background{
+	border-top-color : #fff;
+	bottom           : 1px;
+}
+.tooltipster-claro.tooltipster-sidetip.tooltipster-bottom .tooltipster-arrow {
+	top : -1px;
+}
+.tooltipster-claro.tooltipster-sidetip.tooltipster-bottom .tooltipster-arrow-border {
+	border-bottom-color : #BBB;
+}
+.tooltipster-claro.tooltipster-sidetip.tooltipster-bottom .tooltipster-arrow-background{
+	border-bottom-color : #fff;
+	top                 : 1px;
+}

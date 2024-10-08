@@ -1,0 +1,2 @@
+/*! -- File: viewport.js ( Input 0 ) -- */
+(function(){if(navigator.userAgent.match(/IEMobile\/10\.0/)){var b=document.getElementById("head"),a=document.createElement("style");a.appendChild(document.createTextNode("@-ms-viewport{width:"+viewportWidth+" !important;}"));b.appendChild(a)}})();

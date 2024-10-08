@@ -1,0 +1,290 @@
+html.on-device .dkiContentFrame{
+  height: auto !important;
+}
+html.on-desktop .online .dkiContentFrame, html.on-desktop .online #contentFrame{
+	max-height: 600px;
+}
+#contentFrame .dki-authoring-element, #page-container .dki-authoring-element{
+	position: relative;	
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+	box-sizing: border-box;
+}
+
+#contentFrame .dki-authoring-element input, #page-container .dki-authoring-element input{
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+	box-sizing: border-box;
+}
+
+.dki-authoring-element[data-isquestionelement=true]{
+	z-index: 0;
+}
+
+.dki-question-option, .dki-question-option label{
+	min-height: 25px;
+}
+
+.super-section .dki-authoring-row,
+.super-section .dki-authoring-group,
+.super-section .dki-authoring-group .dki-authoring-group-elements-wrapper{
+	min-height: inherit;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+html .dkiContentFrame{
+	overflow: clip;
+}
+
+.cssFX div.cssFX-level1,
+.cssFX div.cssFX-level1 div.cssFX-level2,
+.cssFX div.cssFX-level1 div.cssFX-level2 div.cssFX-level3,
+.cssFX div.cssFX-level1 div.cssFX-level2 div.cssFX-level3 div.dki-authoring-content-wrapper,
+.cssFX div.cssFX-level1 div.cssFX-level2 div.cssFX-level3 div.dki-authoring-content-wrapper img,
+.cssFX div.cssFX-level1 div.cssFX-level2 div.cssFX-level3 div.dki-authoring-content-wrapper div.content,
+.cssFX div.cssFX-level1 div.cssFX-level2 div.cssFX-level3 div.dki-authoring-content-wrapper svg {
+	position: static !important;
+}
+
+.stackable_element div.dki-authoring-content-wrapper .dki-authoring-element-element.cssFX{
+	position: absolute !important;
+}
+
+
+
+.dki-placeholder-element{
+	position: relative;
+	
+}
+.online .dkiContentFrame, 
+.online #contentFrame{
+	height: 600px;	
+}
+html.noNav .online .dkiContentFrame, html.noNav .online #contentFrame, .tablet .dkiContentFrame, .tablet #contentFrame, .bgRepeater{
+    height: auto !important;
+}
+.dkiContentFrame.current{
+    position: relative;
+}
+.dkiContentFrame{
+	top: auto;
+	bottom: auto;
+}
+.dkiContentFrame.dk-hidden{
+	top: 0;
+	bottom: 0;
+}
+.bgRepeater, #contentFrame{
+	width: 100% !important;
+	background-color: transparent;
+	overflow-x: clip;
+}
+.pageElementsWrapper{	
+	width: 100%;
+	height: auto;
+	min-height: 100%;
+	box-sizing: border-box;
+	float: left;
+	padding-bottom: 1px;
+}
+.dkiContentFrame:before {
+	content: "";
+	display: table;
+	clear: both;
+}
+.dkiContentFrame:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.zoomedWrapper{
+	position:static;
+}
+
+.pageElementsWrapper.design-layout{
+	position:absolute;
+	z-index: -1;
+}
+
+.dki-video-content-element {
+	display:inline-block;
+}
+
+.jp-video{
+	max-height: inherit;
+}
+.jp-video-player{
+	max-width: 100% !important;
+	width: 100% !important;
+	max-height: 100% !important;
+}
+.jp-video-player video, .jp-video-player object{
+	object-fit: contain;
+	max-width: 100% !important;
+	width: 100% !important;
+	height: 100% !important;
+}
+
+.dki-video-content-element{
+	overflow: hidden;
+}
+
+/* videos elements need to have height/width 0 if their poster image is showing*/
+.jp-video-player img{
+	position: absolute;
+}
+
+.jp-video-player object{
+	min-height: 125px;
+}
+.dki-media-placeholder{
+
+}
+.jp-video-player video{
+/*height: auto !important*/
+}
+
+.pageElementsWrapper.design, .pageElementsWrapper.design-layout{
+	z-index: -1 !important;
+	position: absolute;
+}
+
+.pageElementsWrapper.page{
+	position: relative;
+}
+
+/*code to make videoembeds and html widgets responsive.*/
+.dki-videoembed-element{
+	display: flex;
+	display: -ms-flex;
+}
+
+.dki-html-element .dki-authoring-content-wrapper,
+.dki-videoembed-element .dki-authoring-content-wrapper,
+.dki-iframe-element .dki-authoring-content-wrapper{
+	position: relative;
+	overflow: hidden !important;	
+}
+
+html.on-device .dki-videoembed-element .dki-authoring-content-wrapper,
+html.on-device .dki-iframe-element .dki-authoring-content-wrapper{
+	-webkit-overflow-scrolling: touch !important;
+	overflow-y: scroll !important;	
+}
+
+
+/*setup the iframe to use the wrapper as its size*/
+.dki-videoembed-element .dki-media-placeholder,
+.dki-videoembed-element .dki-element-content iframe,
+.dki-html-element iframe.responsive,
+.dki-html-element iframe.adaptive,
+.dki-iframe-element iframe{
+	min-width: 100% !important;
+	width: 1px !important;
+	height: 100% !important;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+
+
+
+
+
+
+/* ==================================================================================================================== */
+/* ! The 1140px Grid V2 by Andy Taylor \ http://cssgrid.net \ http://www.twitter.com/andytlr \ http://www.andytlr.com   */
+/* ==================================================================================================================== */
+
+.container {
+padding-left: 20px;
+padding-right: 20px;
+}
+
+.dki-authoring-group-elements-wrapper{
+	min-height: 1px;
+}
+
+.dki-authoring-group, .dki-group-spacer, .dki-authoring-row, .dki-authoring-section {
+position: relative;
+overflow: visible;
+float: left;
+}
+
+.dki-group-spacer, .dki-authoring-row, .dki-authoring-section {
+	margin: 0 auto;
+}
+
+.dki-authoring-row.reverse-order .dki-authoring-group{
+	float: right !important;
+}
+
+
+.pageElementsWrapper .dki-authoring-element{
+	z-index: 0;
+}
+
+.last {
+margin-right: 0px;
+}
+
+img, object, embed, canvas {
+max-width: 100%;
+}
+
+img {
+	height: auto;
+}
+
+img[src$=".svg"]{
+	width: 100%;
+}
+
+.cssFX div.cssFX-level1 div.cssFX-level2 div.cssFX-level3 div.dki-authoring-content-wrapper img, .cssFX div.cssFX-level1 div.cssFX-level2 div.cssFX-level3 div.dki-authoring-content-wrapper div.content, .cssFX div.cssFX-level1 div.cssFX-level2 div.cssFX-level3 div.dki-authoring-content-wrapper svg{
+	
+	height: auto !important;
+	
+} 
+
+.feedbackContent {
+	max-height: 350px;
+	overflow: auto;
+}
+
+@media handheld, only screen and (max-width: 501px) {
+	
+	.feedbackWrapper {
+		width: auto;
+		margin: 0;
+		left: 15px;
+		right: 15px;
+	}
+}
+
+
+@media handheld, only screen and (max-width: 405px) {
+ 
+	
+	.submitButton {
+		width: 90%;
+		right: 5%;
+		bottom: 1%;
+		text-align: center;
+	}
+
+	.questionScoreDisplay{
+		left: 0px;
+		right: 0px;
+		background-color: white;
+		text-align: center;
+		width: 100%;
+	}
+}
+
+@media handheld, only screen and (max-width: 320px) {
+	
+}
+

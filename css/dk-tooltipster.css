@@ -1,0 +1,6 @@
+@import url("themes/tooltipster-claro.css");
+
+.tooltipster-base {
+    width: max-content !important;
+    height: max-content !important;
+}
